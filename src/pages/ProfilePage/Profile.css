@@ -1,0 +1,98 @@
+.profile-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 100vh;
+  padding: 5rem 2rem 4rem 2rem; 
+}
+
+.profile-content {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+  margin: 20px 0;
+  gap: 30px; 
+}
+
+.profile-photo {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px; 
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.photo {
+  width: 150px;
+  height: 150px;
+  background-color: #ccc;
+  border-radius: 50%;
+}
+
+.photo-icon {
+  width: 150px;
+  height: 150px;
+  color: #ccc;
+  font-size: 150px;
+}
+
+.btn {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px; 
+}
+
+.profile-info {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+  background-color: #f8f9fa;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile-info h2 {
+  margin: 0;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+.profile-info p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.profile-info span {
+  color: #007BFF;
+  cursor: pointer;
+}
+
+.manage-details {
+  margin-top: 20px; 
+}
+
+.manage-booking-link {
+  color: #007BFF; 
+  text-decoration: none; 
+  font-weight: bold;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.manage-booking-link::after {
+  font-size: 1.2em;
+  transition: transform 0.3s ease;
+}

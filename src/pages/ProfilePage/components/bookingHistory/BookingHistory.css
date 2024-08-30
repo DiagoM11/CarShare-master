@@ -1,0 +1,74 @@
+.booking-history {
+    padding: 20px;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  .booking-history h2 {
+    margin-bottom: 20px;
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #f4f4f4;
+    padding-bottom: 10px;
+  }
+  
+  .footer-container {
+    padding: 2rem 1rem; 
+    
+    margin-top: 150px;
+}
+  .no-bookings {
+    font-size: 1.2rem;
+    color: #999;
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .booking-history-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .booking-history-table th,
+  .booking-history-table td {
+    padding: 15px;
+    text-align: left;
+  }
+  
+  .booking-history-table th {
+    background-color: #ff6b6b;
+    color: #fff;
+    font-size: 1rem;
+  }
+  
+  .booking-history-table tr {
+    transition: background-color 0.3s;
+  }
+  
+  .booking-history-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .booking-history-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .booking-row td {
+    font-size: 1rem;
+    border-bottom: 1px solid #ddd;
+    color: #555;
+  }
+  
+  .booking-row td:first-child {
+    font-weight: bold;
+  }
+  
+  .booking-history-table th svg,
+  .booking-history-table td svg {
+    margin-right: 5px;
+    vertical-align: middle;
+  }
+  

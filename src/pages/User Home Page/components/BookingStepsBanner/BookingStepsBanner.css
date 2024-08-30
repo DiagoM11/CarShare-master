@@ -1,0 +1,84 @@
+/* BookingSteps.css */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+.booking-steps-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 40px 60px; /* Adjusted padding */
+    background-color: #ffffff; /* Pure white background */
+    color: #333;
+    text-align: center;
+}
+
+.booking-steps-heading {
+    font-size: 36px; /* Heading font size */
+    margin-bottom: 40px; /* Margin below heading */
+    color: #ff7043; /* Heading color */
+    font-weight: bold;
+}
+
+.booking-steps-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px; /* Gap between cards */
+    width: 100%; /* Full width */
+    max-width: 1200px; /* Max width for large screens */
+}
+
+.booking-step-card {
+    background-color: #f9f9f9; /* Card background color */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 30%; /* Card width */
+    max-width: 300px; /* Maximum width */
+}
+
+.booking-step-card:hover {
+    transform: translateY(-10px); /* Lift card on hover */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Increase shadow on hover */
+}
+
+.step-image {
+    width: 60px; /* Smaller image width */
+    height: 60px; /* Smaller image height */
+    margin-bottom: 15px; /* Space below image */
+    border-radius: 50%; /* Circular image */
+    object-fit: cover;
+}
+
+.booking-step-card h3 {
+    font-size: 24px; /* Step title font size */
+    margin: 15px 0; /* Margin above and below title */
+}
+
+.booking-step-card p {
+    font-size: 16px; /* Step description font size */
+    color: #666; /* Text color */
+}
+
+@media (max-width: 768px) {
+    .booking-steps-section {
+        padding: 40px 20px; /* Adjusted padding for smaller screens */
+    }
+
+    .booking-steps-heading {
+        font-size: 28px; /* Adjusted font size for smaller screens */
+    }
+
+    .booking-steps-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .booking-step-card {
+        width: 90%; /* Full width on smaller screens */
+        max-width: none; /* Remove max-width */
+        margin-bottom: 20px; /* Space between cards on smaller screens */
+    }
+}
